@@ -1426,11 +1426,27 @@ GHG Emissions Summary
 
 <aside>Fuel Types</aside>
 
-| Fuel Type               | Fuel Type                | Fuel Type                |
-| ----------------------- | ------------------------ | ------------------------ |
-| agricultural byproducts | distillate fuel oil no 1 | petrochemical feedstocks |
-| peat                    | distillate fuel oil no 2 | petroleum coke           |
-| solid byproducts        | distillate fuel oil no 4 | propane                  |
-| wood and wood residuals | ethane                   | propylne                 |
-| natural gas             | ethylene                 | residual fuel oil no 5   |
-| blast furnace gas       | heavy gas oils           | residual fuel oil no 6   |
+| Fuel Type                   | Fuel Type                | Fuel Type                |
+| --------------------------- | ------------------------ | ------------------------ |
+| agricultural byproducts     | distillate fuel oil no 1 | petrochemical feedstocks |
+| peat                        | distillate fuel oil no 2 | petroleum coke           |
+| solid byproducts            | distillate fuel oil no 4 | propane                  |
+| wood and wood residuals     | ethane                   | propylne                 |
+| natural gas                 | ethylene                 | residual fuel oil no 5   |
+| blast furnace gas           | heavy gas oils           | residual fuel oil no 6   |
+| coke oven gas               | isobutane                | special naphtha          |
+| fuel gas                    | isobutylene              | still gas                |
+| propane gas                 | kerosene                 | unfished oils            |
+| landfill gas                | kerosene type jet fuel   | used oils                |
+| other biomass gases         | liquefied petroleum gas  | biodiesel 100 percent    |
+| compressed natural gas      | lubricants               | ethanol 100 percent      |
+| asphalt and road oil        | motor gasoline           | rendered animal fat      |
+| aviation gasoline           | naphtha 401 deg f        | diesel fuel              |
+| butane                      | natural gasoline         | liquefied natural gas    |
+| butylene                    | other oil 401 def f      | methanol                 |
+| crude oil                   | pentanes plus            | residual fuel oil        |
+| anthracite coal             | vegetable oil            | bituminous coal          |
+| sub bituminous coal         | lignite coal             | mixed commercial sector  |
+| mixed electric power sector | mixed industrial cooking | coal coke                |
+| municipal solid waste       | petroleum coke solid     | plastics                 |
+| plastics quad short ton     | tires                    |                          |
