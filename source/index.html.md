@@ -623,17 +623,18 @@ Electricity and other sources of energy purchased from your local utility (that 
 
 <aside>Request params</aside>
 
-| Param                | Type    | Required | Description                                                       |
-| -------------------- | ------- | -------- | ----------------------------------------------------------------- |
-| number_of_people     | string  | true     | the number of people in the household                             |
-| facility_id          | integer | true     | facility id of the company                                        |
-| year                 | integer | true     | the year in which the facility wants to calculate ghg emissions   |
-| fuel_type            | string  | true     | type of fuel to be combusted                                      |
-| amount               | number  | true     | amount of fuel to be consumed                                     |
-| units                | string  | true     | units of the fuel_type to be combusted(e.g., kg or kWh or therms) |
-| activity_type        | string  | true     |                                                                   |
-| gwp_dataset_revision | string  | true     |                                                                   |
-| scope                | string  | true     | cross-sectoral emission sources i.e scope 1, 2 and 3              |
+| Param                 | Type    | Required | Description                                                       |
+| --------------------- | ------- | -------- | ----------------------------------------------------------------- | --- |
+| facility_id           | integer | true     | facility id of the company                                        |
+| year                  | integer | true     | the year in which the facility wants to calculate ghg emissions   |
+| emission_factor_type" | string  | true     | e.g Grid Average/Location Based                                   |
+| approach              | string  | true     | e.g Purchased Electricity - Market Based                          |
+| amount                | number  | true     | amount of fuel to be consumed                                     |
+| units                 | string  | true     | units of the fuel_type to be combusted(e.g., kg or kWh or therms) |     |
+| gwp_dataset_revision  | string  | true     |                                                                   |
+| scope                 | string  | true     | cross-sectoral emission sources i.e scope 1, 2 and 3              |
+| grid_region           | string  | true     | grid region in which the facility is based                        |
+| country               | string  | true     | country in which the facility is based                            |
 
 # Refrigerants
 
