@@ -442,10 +442,12 @@ Fuel consumption by vehicles used to conduct company-financed travel. Examples i
 
 | Param                | Type    | Required | Description                                                       |
 | -------------------- | ------- | -------- | ----------------------------------------------------------------- |
-| number_of_people     | string  | true     | the number of people in the household                             |
 | facility_id          | integer | true     | facility id of the company                                        |
 | year                 | integer | true     | the year in which the facility wants to calculate ghg emissions   |
-| fuel_type            | string  | true     | type of fuel to be combusted                                      |
+| emission_dataset     | string  | true     |                                                                   |
+| vehicle_type         | string  | true     | type of vehicle being used                                        |
+| mode_of_transport    | string  | true     | mode_of_transport being used e.g car                              |
+| category             | string  | true     | e.g Employee Commute                                              |
 | amount               | number  | true     | amount of fuel to be consumed                                     |
 | units                | string  | true     | units of the fuel_type to be combusted(e.g., kg or kWh or therms) |
 | activity_type        | string  | true     |                                                                   |
