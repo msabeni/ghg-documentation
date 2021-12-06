@@ -645,7 +645,7 @@ curl --location --request POST 'https://dynm-corporate.herokuapp.com/refrigerant
     "inventory_end": 1,
     "purchased": 0,
     "gwp_dataset_revision": "2007 IPCC Fifth Assessment",
-    "scope": "Scope 2"
+    "scope": "Scope 1"
 }'
 ```
 
@@ -661,7 +661,7 @@ const data = {
   inventory_end: 1,
   purchased: 0,
   gwp_dataset_revision: "2007 IPCC Fifth Assessment",
-  scope: "Scope 2",
+  scope: "Scope 1",
 };
 
 fetch("https://dynm-corporate.herokuapp.com/refrigerants", {
@@ -696,7 +696,7 @@ payload = json.dumps({
   "inventory_end": 1,
   "purchased": 0,
   "gwp_dataset_revision": "2007 IPCC Fifth Assessment",
-  "scope": "Scope 2"
+  "scope": "Scope 1"
 })
 headers = {
   'Content-Type': 'application/json'
@@ -721,7 +721,7 @@ print(response.text)
     "inventory_end"=> 1,
     "purchased"=> 0,
     "gwp_dataset_revision"=> "2007 IPCC Fifth Assessment",
-    "scope"=> "Scope 2"
+    "scope"=> "Scope 1"
     );
 
   curl_setopt_array($ch, array(
