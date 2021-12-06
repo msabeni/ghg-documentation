@@ -1255,12 +1255,6 @@ Scope 3 - Upstream Transportation and Distribution, Business Travel, and Employe
 </tr>
 </thead><tbody>
 <tr>
-<td>number_of_people</td>
-<td>string</td>
-<td>true</td>
-<td>the number of people in the household</td>
-</tr>
-<tr>
 <td>facility_id</td>
 <td>integer</td>
 <td>true</td>
@@ -1273,27 +1267,39 @@ Scope 3 - Upstream Transportation and Distribution, Business Travel, and Employe
 <td>the year in which the facility wants to calculate ghg emissions</td>
 </tr>
 <tr>
-<td>fuel_type</td>
+<td>refrigerant</td>
 <td>string</td>
 <td>true</td>
-<td>type of fuel to be combusted</td>
+<td>type of gas used for refrigeration e.g methane</td>
 </tr>
 <tr>
-<td>amount</td>
+<td>calculation_method</td>
+<td>string</td>
+<td>true</td>
+<td>method of calculation e.g Sales Approach (Product)</td>
+</tr>
+<tr>
+<td>equipment_type</td>
+<td>string</td>
+<td>false</td>
+<td>type of equipment in use</td>
+</tr>
+<tr>
+<td>inventory_start</td>
 <td>number</td>
-<td>true</td>
-<td>amount of fuel to be consumed</td>
+<td>false</td>
+<td></td>
 </tr>
 <tr>
-<td>units</td>
-<td>string</td>
-<td>true</td>
-<td>units of the fuel_type to be combusted(e.g., kg or kWh or therms)</td>
+<td>inventory_end</td>
+<td>number</td>
+<td>false</td>
+<td></td>
 </tr>
 <tr>
-<td>activity_type</td>
-<td>string</td>
-<td>true</td>
+<td>purchased</td>
+<td>number</td>
+<td>false</td>
 <td></td>
 </tr>
 <tr>
