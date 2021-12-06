@@ -1950,58 +1950,40 @@ Scope 3 - Upstream Transportation and Distribution, Business Travel, and Employe
 </tr>
 </thead><tbody>
 <tr>
-<td>number_of_people</td>
-<td>string</td>
-<td>true</td>
-<td>the number of people in the household</td>
-</tr>
-<tr>
 <td>facility_id</td>
 <td>integer</td>
 <td>true</td>
 <td>facility id of the company</td>
 </tr>
 <tr>
-<td>year</td>
-<td>integer</td>
-<td>true</td>
-<td>the year in which the facility wants to calculate ghg emissions</td>
-</tr>
-<tr>
-<td>fuel_type</td>
-<td>string</td>
-<td>true</td>
-<td>type of fuel to be combusted</td>
-</tr>
-<tr>
-<td>amount</td>
-<td>number</td>
-<td>true</td>
-<td>amount of fuel to be consumed</td>
-</tr>
-<tr>
-<td>units</td>
-<td>string</td>
-<td>true</td>
-<td>units of the fuel_type to be combusted(e.g., kg or kWh or therms)</td>
-</tr>
-<tr>
-<td>activity_type</td>
-<td>string</td>
-<td>true</td>
+<td>stationary_combustion params</td>
 <td></td>
+<td>true</td>
+<td>request parameters required for stationary combustion</td>
 </tr>
 <tr>
-<td>gwp_dataset_revision</td>
-<td>string</td>
-<td>true</td>
+<td>mobile_combustion params</td>
 <td></td>
+<td>true</td>
+<td>request parameters required for mobile combustion</td>
 </tr>
 <tr>
-<td>scope</td>
-<td>string</td>
+<td>electricity params</td>
+<td></td>
 <td>true</td>
-<td>cross-sectoral emission sources i.e scope 1, 2 and 3</td>
+<td>request parameters required for purchase electricity</td>
+</tr>
+<tr>
+<td>refrigerants params</td>
+<td></td>
+<td>true</td>
+<td>request parameters required for refrigerants calculations</td>
+</tr>
+<tr>
+<td>inventory_data</td>
+<td></td>
+<td>true</td>
+<td>inventory years keyed in to calculate the summarry</td>
 </tr>
 </tbody></table>
 <h1 id='fuel-types'>Fuel Types</h1>
