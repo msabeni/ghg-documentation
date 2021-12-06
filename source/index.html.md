@@ -164,7 +164,6 @@ Includes fuel consumption at a facility to produce electricity, steam, heat, or 
 
 | Param                | Type    | Required | Description                                                       |
 | -------------------- | ------- | -------- | ----------------------------------------------------------------- |
-| number_of_people     | string  | true     | the number of people in the household                             |
 | facility_id          | integer | true     | facility id of the company                                        |
 | year                 | integer | true     | the year in which the facility wants to calculate ghg emissions   |
 | fuel_type            | string  | true     | type of fuel to be combusted                                      |
@@ -298,10 +297,10 @@ Includes fuel consumption by vehicles that are owned or leased by the company. C
 
 | Param                | Type    | Required | Description                                                       |
 | -------------------- | ------- | -------- | ----------------------------------------------------------------- |
-| number_of_people     | string  | true     | the number of people in the household                             |
 | facility_id          | integer | true     | facility id of the company                                        |
 | year                 | integer | true     | the year in which the facility wants to calculate ghg emissions   |
-| fuel_type            | string  | true     | type of fuel to be combusted                                      |
+| fuel_source          | string  | true     | source of fuel to be combusted                                    |
+| vehicle_type         | string  | true     | type of vehicle being used                                        |
 | amount               | number  | true     | amount of fuel to be consumed                                     |
 | units                | string  | true     | units of the fuel_type to be combusted(e.g., kg or kWh or therms) |
 | activity_type        | string  | true     |                                                                   |
