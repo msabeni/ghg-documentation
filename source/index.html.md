@@ -762,17 +762,18 @@ Records or invoices from your maintenance company show the amount and type of re
 
 <aside>Request params</aside>
 
-| Param                | Type    | Required | Description                                                       |
-| -------------------- | ------- | -------- | ----------------------------------------------------------------- |
-| number_of_people     | string  | true     | the number of people in the household                             |
-| facility_id          | integer | true     | facility id of the company                                        |
-| year                 | integer | true     | the year in which the facility wants to calculate ghg emissions   |
-| fuel_type            | string  | true     | type of fuel to be combusted                                      |
-| amount               | number  | true     | amount of fuel to be consumed                                     |
-| units                | string  | true     | units of the fuel_type to be combusted(e.g., kg or kWh or therms) |
-| activity_type        | string  | true     |                                                                   |
-| gwp_dataset_revision | string  | true     |                                                                   |
-| scope                | string  | true     | cross-sectoral emission sources i.e scope 1, 2 and 3              |
+| Param                | Type    | Required | Description                                                     |
+| -------------------- | ------- | -------- | --------------------------------------------------------------- |
+| facility_id          | integer | true     | facility id of the company                                      |
+| year                 | integer | true     | the year in which the facility wants to calculate ghg emissions |
+| refrigerant          | string  | true     | type of gas used for refrigeration e.g methane                  |
+| calculation_method   | string  | true     | method of calculation e.g Sales Approach (Product)              |
+| equipment_type       | string  | false    | type of equipment in use                                        |
+| inventory_start      | number  | false    |                                                                 |
+| inventory_end        | number  | false    |                                                                 |
+| purchased            | number  | false    |                                                                 |
+| gwp_dataset_revision | string  | true     |                                                                 |
+| scope                | string  | true     | cross-sectoral emission sources i.e scope 1, 2 and 3            |
 
 # Results Summary
 
