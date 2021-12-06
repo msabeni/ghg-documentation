@@ -489,12 +489,6 @@ Scope 3 - Upstream Transportation and Distribution, Business Travel, and Employe
 </tr>
 </thead><tbody>
 <tr>
-<td>number_of_people</td>
-<td>string</td>
-<td>true</td>
-<td>the number of people in the household</td>
-</tr>
-<tr>
 <td>facility_id</td>
 <td>integer</td>
 <td>true</td>
@@ -662,12 +656,6 @@ Scope 3 - Upstream Transportation and Distribution, Business Travel, and Employe
 </tr>
 </thead><tbody>
 <tr>
-<td>number_of_people</td>
-<td>string</td>
-<td>true</td>
-<td>the number of people in the household</td>
-</tr>
-<tr>
 <td>facility_id</td>
 <td>integer</td>
 <td>true</td>
@@ -680,10 +668,16 @@ Scope 3 - Upstream Transportation and Distribution, Business Travel, and Employe
 <td>the year in which the facility wants to calculate ghg emissions</td>
 </tr>
 <tr>
-<td>fuel_type</td>
+<td>fuel_source</td>
 <td>string</td>
 <td>true</td>
-<td>type of fuel to be combusted</td>
+<td>source of fuel to be combusted</td>
+</tr>
+<tr>
+<td>vehicle_type</td>
+<td>string</td>
+<td>true</td>
+<td>type of vehicle being used</td>
 </tr>
 <tr>
 <td>amount</td>
@@ -846,12 +840,6 @@ Scope 3 - Upstream Transportation and Distribution, Business Travel, and Employe
 </tr>
 </thead><tbody>
 <tr>
-<td>number_of_people</td>
-<td>string</td>
-<td>true</td>
-<td>the number of people in the household</td>
-</tr>
-<tr>
 <td>facility_id</td>
 <td>integer</td>
 <td>true</td>
@@ -864,10 +852,28 @@ Scope 3 - Upstream Transportation and Distribution, Business Travel, and Employe
 <td>the year in which the facility wants to calculate ghg emissions</td>
 </tr>
 <tr>
-<td>fuel_type</td>
+<td>emission_dataset</td>
 <td>string</td>
 <td>true</td>
-<td>type of fuel to be combusted</td>
+<td></td>
+</tr>
+<tr>
+<td>vehicle_type</td>
+<td>string</td>
+<td>true</td>
+<td>type of vehicle being used</td>
+</tr>
+<tr>
+<td>mode_of_transport</td>
+<td>string</td>
+<td>true</td>
+<td>mode_of_transport being used e.g car</td>
+</tr>
+<tr>
+<td>category</td>
+<td>string</td>
+<td>true</td>
+<td>e.g Employee Commute</td>
 </tr>
 <tr>
 <td>amount</td>
@@ -1066,12 +1072,6 @@ Scope 3 - Upstream Transportation and Distribution, Business Travel, and Employe
 </tr>
 </thead><tbody>
 <tr>
-<td>number_of_people</td>
-<td>string</td>
-<td>true</td>
-<td>the number of people in the household</td>
-</tr>
-<tr>
 <td>facility_id</td>
 <td>integer</td>
 <td>true</td>
@@ -1084,10 +1084,16 @@ Scope 3 - Upstream Transportation and Distribution, Business Travel, and Employe
 <td>the year in which the facility wants to calculate ghg emissions</td>
 </tr>
 <tr>
-<td>fuel_type</td>
+<td>emission_factor_type&quot;</td>
 <td>string</td>
 <td>true</td>
-<td>type of fuel to be combusted</td>
+<td>e.g Grid Average/Location Based</td>
+</tr>
+<tr>
+<td>approach</td>
+<td>string</td>
+<td>true</td>
+<td>e.g Purchased Electricity - Market Based</td>
 </tr>
 <tr>
 <td>amount</td>
@@ -1102,12 +1108,6 @@ Scope 3 - Upstream Transportation and Distribution, Business Travel, and Employe
 <td>units of the fuel_type to be combusted(e.g., kg or kWh or therms)</td>
 </tr>
 <tr>
-<td>activity_type</td>
-<td>string</td>
-<td>true</td>
-<td></td>
-</tr>
-<tr>
 <td>gwp_dataset_revision</td>
 <td>string</td>
 <td>true</td>
@@ -1118,6 +1118,18 @@ Scope 3 - Upstream Transportation and Distribution, Business Travel, and Employe
 <td>string</td>
 <td>true</td>
 <td>cross-sectoral emission sources i.e scope 1, 2 and 3</td>
+</tr>
+<tr>
+<td>grid_region</td>
+<td>string</td>
+<td>true</td>
+<td>grid region in which the facility is based</td>
+</tr>
+<tr>
+<td>country</td>
+<td>string</td>
+<td>true</td>
+<td>country in which the facility is based</td>
 </tr>
 </tbody></table>
 <h1 id='refrigerants'>Refrigerants</h1>
